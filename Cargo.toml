@@ -1,0 +1,15 @@
+[package]
+name = "tessera"
+version = "0.2.0"
+edition = "2021"
+description = "TESSERA-Q: O(1)-memory autoregressive sequence model with a Continuous Modern Hopfield working memory, Differential Attention and exact analytical BPTT."
+license = "MIT OR Apache-2.0"
+
+[profile.release]
+opt-level = 3
+lto = "thin"
+codegen-units = 1
+debug = false
+
+[profile.bench]
+opt-level = 3

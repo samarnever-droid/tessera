@@ -1,0 +1,3 @@
+FINAL holdout BPC: 5.5304
+throughput: 604 tok/s  (1357.2s total)
+DONE

@@ -1,0 +1,8 @@
+H1-tessera-400	3.7649
+H2-transformer-400	
+H3-tessera-lr4e3-200	4.0455
+H4-tessera-800	3.5202
+transformer-200-lr1e-3	5.3719
+transformer-200-lr5e-4	5.3173
+transformer-200-lr2e-3	5.4110
+transformer-800-lr5e-4	4.6474

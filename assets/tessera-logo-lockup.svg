@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 240" width="780" height="240" role="img" aria-label="TESSERA-Q wordmark with the mosaic mark">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="tile2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- badge + mosaic (mark, slightly inset) -->
+  <g transform="translate(4,4) scale(0.9667)">
+    <rect x="8" y="8" width="224" height="224" rx="52" fill="#0B1020"/>
+    <rect x="8.75" y="8.75" width="222.5" height="222.5" rx="51.25" fill="none" stroke="#1E2A4A" stroke-width="1.5"/>
+    <circle cx="120" cy="120" r="97" fill="none" stroke="url(#ring)" stroke-width="2.5"
+            stroke-dasharray="3 9" stroke-linecap="round" opacity="0.55"/>
+    <circle cx="188.6" cy="51.4" r="6" fill="#F59E0B"/>
+    <g>
+      <rect x="48"  y="48"  width="40" height="40" rx="10" fill="url(#tile)"/>
+      <rect x="100" y="48"  width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+      <rect x="152" y="48"  width="40" height="40" rx="10" fill="url(#tile)"/>
+      <rect x="48"  y="100" width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+      <circle cx="120" cy="120" r="34" fill="url(#glow)"/>
+      <rect x="100" y="100" width="40" height="40" rx="10" fill="#F59E0B"/>
+      <rect x="105" y="105" width="30" height="30" rx="7" fill="#FBBF24" opacity="0.65"/>
+      <rect x="152" y="100" width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+      <rect x="48"  y="152" width="40" height="40" rx="10" fill="url(#tile2)"/>
+      <rect x="100" y="152" width="40" height="40" rx="10" fill="url(#tile2)" opacity="0.85"/>
+      <rect x="152" y="152" width="40" height="40" rx="10" fill="url(#tile2)"/>
+    </g>
+  </g>
+
+  <!-- wordmark -->
+  <text x="268" y="122" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace"
+        font-size="66" font-weight="700" letter-spacing="7" fill="#E2E8F0">TESSERA<tspan fill="#F59E0B">-Q</tspan></text>
+  <text x="272" y="164" font-family="ui-monospace, 'Cascadia Code', 'SF Mono', Menlo, Consolas, monospace"
+        font-size="16" letter-spacing="3.5" fill="#64748B">O(1) MEMORY &#183; DIFFERENTIAL ATTENTION &#183; HOPFIELD ON-CHIP</text>
+  <rect x="272" y="96" width="70" height="3" rx="1.5" fill="#22D3EE" opacity="0.7"/>
+</svg>

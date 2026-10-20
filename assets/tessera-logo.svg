@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240" role="img" aria-label="Tessera-Q logo: a nine-tile mosaic around an amber memory core, wrapped by an O(1) orbit ring">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <linearGradient id="tile2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#818CF8"/>
+      <stop offset="1" stop-color="#6366F1"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#F59E0B" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#F59E0B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="8" y="8" width="224" height="224" rx="52" fill="#0B1020"/>
+  <rect x="8.75" y="8.75" width="222.5" height="222.5" rx="51.25" fill="none" stroke="#1E2A4A" stroke-width="1.5"/>
+
+  <!-- O(1) orbit: one ring, one constant state -->
+  <circle cx="120" cy="120" r="97" fill="none" stroke="url(#ring)" stroke-width="2.5"
+          stroke-dasharray="3 9" stroke-linecap="round" opacity="0.55"/>
+  <circle cx="188.6" cy="51.4" r="6" fill="#F59E0B"/>
+
+  <!-- nine pillars: the mosaic -->
+  <g>
+    <rect x="48"  y="48"  width="40" height="40" rx="10" fill="url(#tile)"/>
+    <rect x="100" y="48"  width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+    <rect x="152" y="48"  width="40" height="40" rx="10" fill="url(#tile)"/>
+
+    <rect x="48"  y="100" width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+    <circle cx="120" cy="120" r="34" fill="url(#glow)"/>
+    <rect x="100" y="100" width="40" height="40" rx="10" fill="#F59E0B"/>
+    <rect x="105" y="105" width="30" height="30" rx="7" fill="#FBBF24" opacity="0.65"/>
+    <rect x="152" y="100" width="40" height="40" rx="10" fill="url(#tile)" opacity="0.85"/>
+
+    <rect x="48"  y="152" width="40" height="40" rx="10" fill="url(#tile2)"/>
+    <rect x="100" y="152" width="40" height="40" rx="10" fill="url(#tile2)" opacity="0.85"/>
+    <rect x="152" y="152" width="40" height="40" rx="10" fill="url(#tile2)"/>
+  </g>
+</svg>

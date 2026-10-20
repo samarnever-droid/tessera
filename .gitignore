@@ -1,0 +1,19 @@
+# build
+/target
+
+# trained model binaries & training state (kept in workspace, not in code bundle)
+checkpoints/*.bin
+checkpoints/*.tem
+checkpoints/*.bin.ok
+probes/*.bin
+probes/*.bin.ok
+
+# experiment logs
+*.log
+
+# editor / OS noise
+*.swp
+.DS_Store
+
+# patches
+*.patch

@@ -1,0 +1,10 @@
+A0-baseline	4.1468
+A1-alpha0	4.1429
+A3-alpha06	4.1753
+A2-alpha01	4.1330
+Z1-zloss0	4.1273
+Z2-zloss1e3	4.1386
+L1-lr5e4	4.2450
+L2-lr2e3	4.0951
+W2-wd01	4.1366
+W1-wd005	4.1473
